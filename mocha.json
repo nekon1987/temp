@@ -1,86 +1,47 @@
 {
-  "stats": {
+ "stats": {
     "suites": 1,
+	
+	
+	
     "tests": 14,
     "passes": 14,
     "pending": 0,
+	
     "failures": 0,
     "start": "2020-10-07T09:57:30.897Z",
     "end": "2020-10-07T09:57:44.706Z",
     "duration": 13809
   },
-  "failures": [],
-  "passes": [
+  
+  "failures": [
+
     {
-      "title": ".type() - type into a DOM element",
-      "fullTitle": "Actions .type() - type into a DOM element",
-      "duration": 4395
-    },
-    {
-      "title": ".focus() - focus on a DOM element",
-      "fullTitle": "Actions .focus() - focus on a DOM element",
-      "duration": 204
-    },
-    {
-      "title": ".blur() - blur off a DOM element",
-      "fullTitle": "Actions .blur() - blur off a DOM element",
-      "duration": 482
-    },
-    {
-      "title": ".clear() - clears an input or textarea element",
-      "fullTitle": "Actions .clear() - clears an input or textarea element",
-      "duration": 521
-    },
-    {
-      "title": ".submit() - submit a form",
-      "fullTitle": "Actions .submit() - submit a form",
-      "duration": 419
-    },
-    {
-      "title": ".click() - click on a DOM element",
-      "fullTitle": "Actions .click() - click on a DOM element",
-      "duration": 1989
-    },
-    {
-      "title": ".dblclick() - double click on a DOM element",
-      "fullTitle": "Actions .dblclick() - double click on a DOM element",
-      "duration": 222
-    },
-    {
-      "title": ".rightclick() - right click on a DOM element",
-      "fullTitle": "Actions .rightclick() - right click on a DOM element",
-      "duration": 220
-    },
-    {
-      "title": ".check() - check a checkbox or radio element",
-      "fullTitle": "Actions .check() - check a checkbox or radio element",
-      "duration": 909
-    },
-    {
-      "title": ".uncheck() - uncheck a checkbox element",
-      "fullTitle": "Actions .uncheck() - uncheck a checkbox element",
-      "duration": 865
-    },
-    {
-      "title": ".select() - select an option in a <select> element",
-      "fullTitle": "Actions .select() - select an option in a <select> element",
-      "duration": 1006
-    },
-    {
-      "title": ".scrollIntoView() - scroll an element into view",
-      "fullTitle": "Actions .scrollIntoView() - scroll an element into view",
-      "duration": 204
-    },
-    {
-      "title": ".trigger() - trigger an event on a DOM element",
-      "fullTitle": "Actions .trigger() - trigger an event on a DOM element",
-      "duration": 146
-    },
-    {
-      "title": "cy.scrollTo() - scroll the window or element to a position",
-      "fullTitle": "Actions cy.scrollTo() - scroll the window or element to a position",
-      "duration": 2112
+
+      "title": "Drilldown view - Select Dates filter check",
+
+      "fullTitle": "Drilldown view page is loaded and working Drilldown view - Select Dates filter check",
+
+      "error": "AssertionError: Timed out retrying: expected '<span.value>' to be 'visible'\n\nThis element `<span.value>` is not visible because it has an effective width and height of: `85 x 0` pixels.\nAssertionError: expected '<span.value>' to be 'visible'\n    at applyChainer (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:131855:30)\n    at https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:131898:16\n    at arrayReduce (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:131888:18)\n    at tryCatcher (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:131902:23)\n    at Context.should (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:131917:23)\n    at https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:127813:39\n    at assertions (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:128073:14)\n    at tryCatcher (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://dev6.riplweb-dev.oneadr.net/__cypress/runner/cypress_runner.js:6994:31)"
+
     }
+
   ],
+
+  "passes": [
+
+    {
+
+      "title": "Drilldown view should be loaded successfully",
+
+      "fullTitle": "Drilldown view page is loaded and working Drilldown view should be loaded successfully",
+
+      "duration": 21523
+
+    }
+
+  ],
+
   "skipped": []
+
 }
